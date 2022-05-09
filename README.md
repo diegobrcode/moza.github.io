@@ -1,2 +1,2 @@
 # moza.github.io
-A website created for learning propsites. 
+A website created for learning purposes. 
