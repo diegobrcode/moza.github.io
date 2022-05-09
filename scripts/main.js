@@ -30,8 +30,8 @@ if(!localStorage.getItem('nome')) {
 }
 else{
     let nomeGuardado = localStorage.getItem('nome');
-    meuCabecalho.textContent = 'Mozilla é legal, !' + 
-    nomeGuardado;
+    meuCabecalho.textContent = 'Mozilla é legal, ' + 
+    nomeGuardado + !;
 }
 
 meuBotao.onclick = function() {defineNomeUsuario();
