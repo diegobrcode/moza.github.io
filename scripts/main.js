@@ -21,7 +21,7 @@ function defineNomeUsuario() {
     else {    
         localStorage.setItem('nome', meuNome);
         meuCabecalho.textContent = 'Mozilla é legal, ' +
-        meuNome;
+        meuNome + ' !';
     }
 }
 
