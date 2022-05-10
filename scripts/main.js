@@ -3,7 +3,7 @@ let minhaImagem = document.querySelector('img');
 minhaImagem.onclick = function(){
     let meuSrc = minhaImagem.getAttribute('src');
     if(meuSrc === 'imagens/firefox-logo1.png') {
-        minhaImagem.setAttribute('src', 'imagens/firefox-logo2.jpg');
+        minhaImagem.setAttribute('src', 'imagens/firefox-logo2.png');
     }
     else {
         minhaImagem.setAttribute('src','imagens/firefox-logo1.png')
